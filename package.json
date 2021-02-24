@@ -12,5 +12,8 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
+  "devDependencies": {
+    "critters": "^0.0.6"
+  },
   "license": "MIT"
 }

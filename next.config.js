@@ -7,4 +7,8 @@ module.exports = withPWA({
     dest: 'public',
     runtimeCaching,
   },
+  webpack: (config, options) => {
+    config.module.rules.push({ parser: { amd: false } })
+    return config
+  }
 })
